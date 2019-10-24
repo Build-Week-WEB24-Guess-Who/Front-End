@@ -7,7 +7,7 @@ import Login from "./Login";
 // Navigation bar components
 function Nav() {
     return (
-        <Router>
+        <Route>
         <nav>
             <img src={TwitterIcon} width="50" height="50"/>
             <ul className="nav-links">
@@ -15,7 +15,7 @@ function Nav() {
                 <Link to="/" className="navbar-button">Login/Signup</Link>
             </ul>
         </nav>
-        </Router>
+        </Route>
     )
 }
 
